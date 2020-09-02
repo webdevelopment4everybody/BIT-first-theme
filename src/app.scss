@@ -1,0 +1,153 @@
+/*   
+Theme Name: Front
+Theme URI: <THEME_URI>
+Description: A Theme for styling.
+Author: BIT
+Author URI: <AUTHOR_URI>
+Version: 1.0
+*/
+
+body{
+    background-color: purple;
+}
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #444;
+}
+
+body {
+    margin: 0;
+    font-size: 1em;
+}
+
+.wrapper {
+    margin: 15px auto;
+    max-width: 1100px;
+    display:inline-block;
+}
+
+.container-calendar {
+    background: #ffffff;
+    padding: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+    overflow: auto;
+    border:1px solid #000;
+    display:inline-block;
+    float:left;
+
+}
+button{
+    border:none;
+    background-color: #fff;
+    font-size:30px;
+}
+.button-container-calendar button {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    outline: none;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-calendar td, .table-calendar th {
+    padding: 5px;
+    border: none;
+    text-align: center;
+    vertical-align: top;
+}
+td{
+    cursor: pointer;
+}
+
+.date-picker.selected {
+    font-weight: bold;
+}
+
+.date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+}
+span{
+    pointer-events: none;
+}
+/* sunday */
+.date-picker:nth-child(1) {
+  color: red;
+}
+
+/* friday */
+.date-picker:nth-child(6) {
+  color: green;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin: 0;
+    width: 200px;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+.footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+}
+
+.footer-container-calendar select {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+}
+p{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    text-align: center;
+    margin-left: 15px;
+    display:none;
+}
+
+.events-wrappers{
+    display: inline-block;
+    margin-left:100px;
+}
+    .events-wrappers >  .previous-events{
+      display: block;  
+    }
+    .events-wrappers >  .today-events{
+      display: block;  
+    }
+    .events-wrappers >  .nearest-events{
+      display: block;  
+    }
