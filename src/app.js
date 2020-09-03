@@ -1,4 +1,4 @@
-
+console.log('labas');
 // function generate_year_range(start, end) {
 //     let years = "";
 //     for (let year = start; year <= end; year++) {

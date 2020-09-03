@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// function generate_year_range(start, end) {
+console.log('labas'); // function generate_year_range(start, end) {
 //     let years = "";
 //     for (let year = start; year <= end; year++) {
 //         years += "<option value='" + year + "'>" + year + "</option>";
@@ -253,8 +253,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\front\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\front\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\BIT-first-theme\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\BIT-first-theme\src\app.scss */"./src/app.scss");
 
 
 /***/ })
