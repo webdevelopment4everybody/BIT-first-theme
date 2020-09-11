@@ -2317,8 +2317,9 @@ function daysInMonth(iMonth, iYear) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\BIT-first-theme\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\BIT-first-theme\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! /Applications/MAMP/htdocs/wordpress/wp-content/themes/BIT-first-theme/src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/wordpress/wp-content/themes/BIT-first-theme/src/app.scss */"./src/app.scss");
+
 
 
 /***/ })
